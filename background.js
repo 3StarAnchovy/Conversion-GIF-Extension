@@ -1,6 +1,7 @@
-let color = '#3aa757';
+var CaptureBtn = document.querySelector("#recordVideo");
+CaptureBtn.addEventListener("click",selectArea);
 
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({ color });
-  console.log('Default background color set to %cgreen', `color: ${color}`);
-});
+function selectArea()
+{
+
+}
